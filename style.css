@@ -1,0 +1,43 @@
+body{
+    background-color: mediumvioletred;
+}
+
+h1{
+    color: moccasin;
+    background-color: darkcyan;
+}
+
+#show_sketch{
+    float: right;
+    background-color: moccasin;
+    border: solid 5px darkorange;
+    color: darkcyan;
+    width: 150px;
+    font-size: 20px;
+
+}
+
+canvas{
+    border: 5px solid darkorange;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px lightgoldenrodyellow;
+    }
+    to{
+        box-shadow: 1px 1px 38px lightgreen;
+    }
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
